@@ -12,7 +12,6 @@ if (lunghezzaUno > lunghezzaDue) {
 } else if (lunghezzaUno < lunghezzaDue) {
   console.log(promDue);
   console.log(promUno);
-} else if (lunghezzaUno === lunghezzaDue) {
-  console.log(promUno);
-  console.log(promDue);
+} else {
+  ('hanno la stessa lunghezza');
 }
