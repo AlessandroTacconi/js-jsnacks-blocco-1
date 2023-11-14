@@ -9,6 +9,9 @@ const nPrompt = parseInt(prompt('Inserisci un numero:'));
 
 for (let i = 0; i < nPrompt; i++) {
   let arrayUtente = [];
-  for (let x = 0; x < 10; x++)
-    arrayUtente.push.Math.floor(Math.random() * 100) + 1;
+  for (let x = 0; x < 10; x++) {
+    arrayUtente.push(Math.floor(Math.random() * 100) + 1);
+  }
+
+  alert(`${i}: ${arrayUtente}`);
 }
