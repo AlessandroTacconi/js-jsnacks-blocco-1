@@ -8,7 +8,7 @@ Il programma stampa la somma di tutti i numeri inseriti.
 const numeri = [];
 
 for (const i = 0; i < 10; i++) {
-  const inserisciNumero = prompt('Inserisci un numero');
+  const inserisciNumero = Number(prompt('Inserisci un numero'));
   numeri.push(Number(inserisciNumero));
   console.log(numeri);
 }
