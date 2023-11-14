@@ -7,12 +7,12 @@ Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quan
 
 const arrayVuoto = [];
 
-const numero = 0;
+let numero = 0;
 
 while (numero < 50) {
   let chiediNumero = prompt('inserisci un numero');
   arrayVuoto.push(chiediNumero);
-  numero += chiediNumero;
+  numero += +chiediNumero;
 }
 
 console.log('array', arrayVuoto);
